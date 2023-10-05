@@ -18,6 +18,13 @@ public class Meal {
     @Column(name="strArea")
     private String area;
 
+    public String getArea() {
+        return area;
+    }
+
+    public void setArea(String area) {
+        this.area = area;
+    }
 
     public void setId(String id) {
         this.id = id;
